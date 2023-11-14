@@ -5,7 +5,8 @@
 
   }
   .red{
-    border-radius: 50%;
+    border-radius: 20%;
+    float: right;
   }
   .aboutme{
     font-family:'Times New Roman', Times, serif;
