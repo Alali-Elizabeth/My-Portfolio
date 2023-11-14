@@ -1,12 +1,27 @@
-.content {
+@media (min-width: 375px){
+  h1{
+    font-size: 1.5rem;
+    color: rebeccapurple;
 
-    float: left;
-    width: 60%;
-  
-
-    
-    @media (max-width: 800px) {
-      float: none;
-      width: 100%;
-    }
   }
+  .red{
+    border-radius: 50%;
+  }
+  .aboutme{
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+  }
+
+
+@media (min-width: 768px){
+  .red{
+    border-radius: 30px;
+    border-color: black;
+    border-width: 20px;
+    color: black;
+    float: right;
+    
+  }
+}
+.soci
+}
