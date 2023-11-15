@@ -16,6 +16,8 @@
 
 @media (min-width: 768px){
   .red{
+    height: 100px;
+    width: 200px;
     border-radius: 30px;
     border-color: black;
     border-width: 20px;
@@ -24,5 +26,7 @@
     
   }
 }
-.soci
+}
+ul li a fa fa-facebook{
+  
 }
