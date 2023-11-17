@@ -14,7 +14,7 @@
   }
 
 
-@media (min-width: 768px){
+@media (max-width: 1080px){
   .red{
     height: 100px;
     width: 200px;
