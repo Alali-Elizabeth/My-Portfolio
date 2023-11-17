@@ -47,7 +47,8 @@ a {
   display: block;
   height: 50px;
   width: 200px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   border-radius: 10px;
   font-size: 20px;
   box-shadow: inset;
@@ -69,13 +70,11 @@ a {
   width: 200px;
   height: 400px;
   border-radius: 20px;
+  margin-top: 30px;
+  padding-top: 30px;
 }
 .seemyproject{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-bottom: 20px;
-  width: 50px;
-  height: 30px;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
 }
