@@ -91,7 +91,30 @@ button{
 .greencurve :hover{
   transform: scale(20deg);
 }
-
+form{
+  margin-left: 400px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  width: 500px;
+  border-radius: 30px;
+  height: 300px;
+  background-color: azure;
+  opacity: 1;
+  padding-top: 30px;
+  
+}
+.submit{
+  margin-top: 30px;
+  width: 200px;
+}
+label{
+  margin-right: 20px;
+  width: fit-content;
+}
+input{
+  width: 200px;
+}
 
 
 
