@@ -12,20 +12,21 @@
 </head>
 <body>
     
-    <section class="sectionA">
-    <h1>
-        <div class="navbar"></div>
-        
-            <button>About Me</button>
-            <button>Concept</button>
-            <button>Quick Selection</a></button>
-            <button>Contact me</button>
-        </div>
-    </h1>
-</section>
+    
+    <nav>
+        <h1> I'm Elizabeth</h1>
+        <ul>
+            <li><a href="#firstsection">About Me</a></li>
+            <li><a href="#secondsection">Concept</a></li>
+            <li><a href="#form">contact me</a></li>
+            
+        </ul>
+    </nav>
+    
 
-    <section class="firstsection">
-    <h1> I'm Elizabeth</h1>
+
+    <section class="firstsection" id="firstsection">
+    
 <div class="container">
 <img src="red.jpg.jpg" class="red">
 </div class>
@@ -91,14 +92,12 @@
     <br><h1>Tonic</h1>
 </section>
 
-<section class="sectionfour">
+<section id="form" class="sectionfour">
 <form >
-    <label for="fname">First Name:</label>
-    <input type="text" id="firstname"><br>
-    <label for="lname">Last Name:</label>
-    <input type="text" id="Lastname"><br>
-    <label for="email">Email Address:</label>
-    <input type="email" id="Emailaddress"><br>
+    
+    <input type="text" id="firstname" placeholder="Enter Fist Name"><br>
+    <input type="text" id="Lastname" placeholder="Enter Last Name"><br>
+    <input type="email" id="Emailaddress" placeholder="Enter Email Address"><br>
     <textarea id="contactme" name="contactme" rows="15" cols="50"></textarea>
     <button class="submit">Send</button><br>
     
