@@ -1,5 +1,5 @@
 @media (min-width: 375px){
-  h1{
+  .navbar{
     font-size: 1.5rem;
     color: rebeccapurple;
 
@@ -14,15 +14,12 @@
   }
 
 
-@media (max-width: 1080px){
+@media (max-width: 768px){
   .red{
-    height: 100px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     border-radius: 30px;
-    border-color: black;
-    border-width: 20px;
-    color: black;
-    float: right;
+    
     
   }
 }

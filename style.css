@@ -1,16 +1,36 @@
-
- 
-.sectionA {
-  background-image: linear-gradient(to right, red, green);
-  animation: infinite;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
   width: 1500px;
-  height: 70px;
+  height: 50px;
+  background-color: rgb(16, 8, 8);  
+  font-size:small;
+  font-weight: bold;
+  text-align: right;
+  color: rgb(245, 241, 241);
+}
+
+
+.firstsection {
+  background-image: linear-gradient(to right, rgb(28, 3, 3), green);
+  width: 1400px;
+  height: 400px;
   margin-top: 0px;
   border: inset;
   box-shadow: 20px;
-  
+  margin-top: 20px;
 }
-
+.red{
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+.aboutme h1{
+ display: inline-block;
+ padding-top: 50px;
+}
 .sectionA h1  button{
   height: 30px;
   width: 120px;
@@ -19,8 +39,6 @@
 
 body {
   max-width: 1200px;
-  background-image: linear-gradient(to right, black, purple);
-
   background-size: cover;
   padding: 20px;
   margin: 20px;
@@ -55,7 +73,7 @@ p{
 }
 ul {
   list-style: none;
-  font-size: 30px;
+  font-size: small;
   display: inline-flex;
   padding-left: 10px;
   margin-left: 10px;
@@ -71,7 +89,7 @@ p {
 }
 
 span {
-  color: blue;
+  color: rgb(255, 0, 51);
   font-size: 20px;
   display: block;
 }
@@ -193,14 +211,13 @@ textarea{
   margin-top: 10px;
   resize: none;
   line-height: 15px;
-  border-radius: 20px;
+  
 }
 
 .submit{
   margin-top: 30px;
   width: 200px;
 }
-
 
 
 
