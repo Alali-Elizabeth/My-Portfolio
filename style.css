@@ -36,6 +36,11 @@
   width: 120px;
   
 }
+.letsconnect{
+  color: aqua;
+  padding-left: 10px;
+  margin-left: 20px;
+}
 
 body {
   max-width: 1200px;

@@ -1,27 +1,43 @@
 @media (min-width: 375px){
   .navbar{
-    font-size: 1.5rem;
+    position: sticky;
+    font-size: smaller;
+    background-color: aqua;
     color: rebeccapurple;
-
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    
   }
-  .red{
-    border-radius: 20%;
-    float: right;
+   .firstsection{
+    align-items: center;
+    background-color: blueviolet;
+    height: 400px;
+    width: 500px;
   }
   .aboutme{
+    display: flex;
     font-family:'Times New Roman', Times, serif;
-    color: red;
+    color: rgb(39, 56, 139);
   }
-
-
-@media (max-width: 768px){
   .red{
+    border-radius: 20px;
+    margin-right: 150px;
+  }
+  .firstsection{
+    width: 100px;
     height: 400px;
-    width: 400px;
-    border-radius: 30px;
-    
-    
+    align-self: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+  .secondsection{
+  margin-left: 200px;
+  width: 600px;
+  height: 400px;
+  background-color: rgb(29, 29, 120);
+  opacity: 1;
+  border-radius: 20px;
   }
 }
-  
-}
+@media (max-width:765px)
