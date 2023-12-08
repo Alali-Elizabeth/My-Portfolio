@@ -1,6 +1,6 @@
 @media (min-width: 375px){
   .navbar{
-    position: sticky;
+    
     font-size: smaller;
     background-color: aqua;
     color: rebeccapurple;
@@ -9,6 +9,7 @@
     height: 40px;
     
   }
+  
    .firstsection{
     align-items: center;
     background-color: blueviolet;
@@ -40,4 +41,6 @@
   border-radius: 20px;
   }
 }
-@media (max-width:765px)
+@media (max-width:765px){
+
+}
